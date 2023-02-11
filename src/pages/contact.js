@@ -7,7 +7,7 @@ import Navbar from "components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function AboutPage() {
+export default function ContacPage() {
   return (
     <>
       <Head>
@@ -19,7 +19,7 @@ export default function AboutPage() {
 
       <Navbar></Navbar>
       <main className={styles.main}>
-        <h1>Estoy en About</h1>
+        <h1>Estoy en contact</h1>
         <p>
           ir a <Link href="/">Index</Link>
         </p>
